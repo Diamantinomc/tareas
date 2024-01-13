@@ -1,6 +1,7 @@
 
 import './App.css';
 import logo from './img/logo.jpg';
+import Tarea from './componentes/tarea';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </div>
       <div className='tareas-lista-principal'>
         <h1>Mis Tareas</h1>
+        <Tarea texto='Aprender algo'/>
       </div>
     </div>
   );
