@@ -1,18 +1,19 @@
 
 import './App.css';
 import logo from './img/logo.jpg';
-import Tarea from './componentes/tarea';
+import ListaDeTareas from './componentes/ListaDeTareas';
 
 function App() {
   return (
     <div className="App">
       <div className='logo-contenedor'>
-        <img  src={logo} 
+        <img  src={logo}
+        alt='logo' 
         className='logo'/>
       </div>
       <div className='tareas-lista-principal'>
         <h1>Mis Tareas</h1>
-        <Tarea texto='Aprender algo'/>
+          <ListaDeTareas />
       </div>
     </div>
   );
